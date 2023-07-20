@@ -1,0 +1,4 @@
+docker exec -it 9c0484a2d00f /bin/bash
+
+docker build . -t test;
+docker run -p 3003:3003 test
